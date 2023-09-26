@@ -26,10 +26,10 @@ body {
   z-index: -1;
 }
 .loader {
-  display: none ;
+  display: flex ;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: 10;
   background-color: var(--grey);
   align-items: center;
