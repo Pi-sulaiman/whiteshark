@@ -6,7 +6,7 @@
 
 :root {
   --purple: #353189;
-  --grey: #f0efef;
+  --grey: #fff;
   --grey2: #6e6e6e;
   --lightBlack: #464955;
   --black: #13222a;
@@ -38,6 +38,9 @@ body {
   gap: 2em;
   font-size: 12px;
   font-family: "Orbitron", sans-serif;
+}
+.loader img{
+  width: 10vw;
 }
 .progress {
   position: absolute;
